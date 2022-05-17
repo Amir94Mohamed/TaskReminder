@@ -5,14 +5,96 @@
     android:layout_height="match_parent">
 
     <ScrollView
-        android:layout_width="391dp"
-        android:layout_height="720dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        android:layout_width="357dp"
+        android:layout_height="150dp"
+        android:background="#9875D8"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="306dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" />
     </ScrollView>
+
+    <ScrollView
+        android:layout_width="357dp"
+        android:layout_height="150dp"
+        android:background="#9875D8"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="509dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Shopping List (Foods)"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Shopping List (Others)"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="463dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="340dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Shopping List (Essential Non-Food)"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <ScrollView
+        android:layout_width="357dp"
+        android:layout_height="150dp"
+        android:background="#9875D8"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="97dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send List"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="668dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="668dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

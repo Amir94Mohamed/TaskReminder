@@ -1,13 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <Button
         android:id="@+id/button2"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="4dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Home" />
+        android:text="Home"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#9E9595"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="391dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="296dp"
+        android:background="#8D6ACC"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="419dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Scheduled Reminders"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="374dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
